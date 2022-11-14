@@ -52,7 +52,7 @@
         },
         {
             "id": "d9e3d850-4423-4074-9198-2e6620dee414",
-            "name": "Inputs",
+            "name": "PIN verification",
             "guide": "c09.md",
             "py": "c09.cs"
         },

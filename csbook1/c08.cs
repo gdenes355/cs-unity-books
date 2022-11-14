@@ -5,17 +5,17 @@ public class ReverseCase
   public static void Main(string[] args)
   {
     Console.WriteLine("Enter a phrase with a mixture of upper and lower case:");
-    string input = Console.ReadLine();
+    string userInput = Console.ReadLine();
 
-    char[] characters = input.ToCharArray();
+    char[] characters = userInput.ToCharArray();
 
-    iter = 0;
+    i = 0;
 
-    while (iter < input.____) 
+    while (i < userInput.____) 
     {
-      ___ (___[iter].IsUpper()) 
+      ___ (___[i].IsUpper()) 
       {
-        ___[iter] = ___[iter].ToUpper();
+        ___[i] = ___[i].ToUpper();
       }
       ___ ___ ()
       {

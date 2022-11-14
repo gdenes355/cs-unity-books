@@ -4,14 +4,14 @@ public class CountingPartOne
 {
   public static void Main(string[] args)
   {
-    string input = "";
+    string userInput = "";
 
     Console.WriteLine("What shall I count up to?");
 
     ___ = Console.ReadLine();
 
-    ___ i = Int32.Parse(input);
+    ___ count = Int32.Parse(___);
     
-
+    Console.WriteLine(count);
   }
 }

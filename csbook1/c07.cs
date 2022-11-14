@@ -8,10 +8,10 @@ public class Fibonacci
     ___ current = 1;
     ___ old = 1;
 
-    int iter = 1;
+    int i = 1;
 
     Console.WriteLine("Enter the number of fibonaccis to generate?");
-    int input = ___.___(___.___());
+    int userInput = ___.___(___.___());
 
     while (___) // repeat the number of times the user specified
     {
@@ -20,10 +20,10 @@ public class Fibonacci
       current = current + ___;
       // you could print current here to debug!
 
-      iter ___ ;
+      i ___ ;
 
     }
-    Console.Write($"In the fibonacci series, term {input} is ");
+    Console.Write($"In the fibonacci series, term {userInput} is ");
     Console.Write(___);
 
   }

@@ -5,15 +5,15 @@ public class NumberConverting
   public static void Main(string[] args)
   {
     string[] numbers = {"one", "two", "three", "four"};
-    string input = "";
+    string userInput = "";
 
     Console.WriteLine("Enter a number from one to four?");
 
     ___(true)
     {
-        input = ___.___();
+        userInput = ___.___();
 
-        if (Int32.Parse(input) < ___ || Int32.Parse(input) > ___) 
+        if (Int32.Parse(userInput) < ___ || Int32.Parse(userInput) > ___) 
         {
             ___;
         }
@@ -22,7 +22,7 @@ public class NumberConverting
             Console.WriteLine("Your Number is not between 1 and 4");
         }
     }
-    Console.WriteLine(___[___.Parse(inpt)])
+    Console.WriteLine(___[___.Parse(userInput)])
 
   }
 }

@@ -6,13 +6,13 @@ public class PIN_verifier
   {
 
     ___.WriteLine("Enter the PIN to verify:");
-    string input = Console.___();
+    string userInput = Console.___();
 
-    ___[] characters = input.___();
+    ___[] characters = userInput.___();
 
     ___ verified = false;
 
-    int iter = 0;
+    int i = 0;
 
     if (___) // length check 
     {

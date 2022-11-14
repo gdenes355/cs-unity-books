@@ -4,20 +4,20 @@ public class CountingPartTwo
 {
   public static void Main(string[] args)
   {
-    string input = "";
+    string userInput = "";
 
     Console.WriteLine("What shall I count up to?");
 
-    input = Console.ReadLine();
+    userInput = Console.ReadLine();
 
-    int count = Int32.Parse(input);
+    int count = Int32.Parse(userInput);
     
-    int iter = 0;
+    int i = 0;
 
-    ___ (iter < count) 
+    ___ (i < count) 
     {
-        iter ++; //this increases iter by 1
-        ___.___("Number " + iter.ToString())___
+        i ++; //this increases i by 1
+        ___.___("Number " + i.ToString())___
     }
 
   }
