@@ -33,7 +33,7 @@
             "py": "c05.cs"
         },
         {
-            "id": "64e37595-ef16-41f9-8110-d88ab62bc33d",
+            "id": "85e91c5f-edcc-414b-a37e-8d0d0ea6aa0e",
             "name": "Num 2 words",
             "guide": "c06.md",
             "py": "c06.cs"
@@ -55,6 +55,12 @@
             "name": "Inputs",
             "guide": "c09.md",
             "py": "c09.cs"
+        },
+        {
+            "id": "2ada80d3-f753-491f-961f-5306f5b6dec5",
+            "name": "Times table",
+            "guide": "c10.md",
+            "py": "c10.cs"
         }
     ]
 }
