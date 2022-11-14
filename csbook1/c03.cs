@@ -4,7 +4,7 @@ public class HelloAgent
 {
     public static void Main(string[] args)
     {
-        String name = new String();
+        string name = "";
         Console.WriteLine("Enter Your Name: ");
         name = Console.ReadLine();
         Console.WriteLine("Hello " + name);

@@ -5,7 +5,7 @@ public class NumberConverting
   public static void Main(string[] args)
   {
     string[] numbers = {"one", "two", "three", "four"};
-    string input = new string();
+    string input = "";
 
     Console.WriteLine("Enter a number from one to four?");
 

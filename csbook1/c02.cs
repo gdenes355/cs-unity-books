@@ -4,7 +4,7 @@ public class HelloPerson
 {
   public static void Main(string[] args)
   {
-    String x = new String();
+    string x = "";
 
     ___.WriteLine("Enter Your Name: ");
 

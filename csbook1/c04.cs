@@ -4,7 +4,7 @@ public class CountingPartOne
 {
   public static void Main(string[] args)
   {
-    String input = new String();
+    string input = "";
 
     Console.WriteLine("What shall I count up to?");
 
