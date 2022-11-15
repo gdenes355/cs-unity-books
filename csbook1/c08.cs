@@ -13,18 +13,18 @@ public class ReverseCase
 
     while (i < userInput.____) 
     {
-      ___ (___[i].IsUpper()) 
+      ___ (Char.IsUpper(___[i])) 
       {
-        ___[i] = ___[i].ToUpper();
+        ___[i] = Char.ToUpper(___[i]);
       }
-      ___ ___ ()
+      ___ ___ (Char.IsLower(___[i]))
       {
         ___
       }
       else 
       {
         // number or special character
-        
+        ___
       }
     }
 
