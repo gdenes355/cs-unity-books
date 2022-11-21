@@ -13,7 +13,7 @@ public class NumberConverting
     {
         userInput = ___.___();
 
-        if (Int32.Parse(userInput) < ___ || Int32.Parse(userInput) > ___) 
+        if (Int32.Parse(userInput) < ___ && Int32.Parse(userInput) > ___) 
         {
             ___;
         }
