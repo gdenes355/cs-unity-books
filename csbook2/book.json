@@ -1,0 +1,36 @@
+{
+    "name": "Book 2",
+    "id": "17366934-fcec-4830-8861-d4513ece22e3",
+    "children": [
+        {
+            "id": "d1c7c85a-3d7c-4aea-aa06-42c4f68955f8",
+            "name": "PIN verification",
+            "guide": "c01.md",
+            "py": "c01.cs"
+        },
+        {
+            "id": "bd373bc9-8a64-44b8-848d-c7f5a5186ae0",
+            "name": "Class example",
+            "guide": "c02.md",
+            "py": "c02.cs"
+        },
+        {
+            "id": "6f264a1a-06d9-481c-8838-0487e415d260",
+            "name": "Class example again",
+            "guide": "c03.md",
+            "py": "c03.cs"
+        },
+        {
+            "id": "baa9b1aa-b7ac-4e05-8217-d99949452409",
+            "name": "Fruits",
+            "guide": "c04.md",
+            "py": "c04.cs"
+        },
+        {
+            "id": "a49216ce-f238-4231-8e4b-6e24e54fff67",
+            "name": "Building",
+            "guide": "c05.md",
+            "py": "c05.cs"
+        }
+    ]
+}
