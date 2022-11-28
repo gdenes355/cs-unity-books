@@ -1,0 +1,48 @@
+{
+    "name": "Book 1",
+    "id": "adb2f627-975e-40f4-8f24-24f9bfdcf4d6",
+    "children": [
+        {
+            "id": "3f3c02e7-40c3-4f27-ab41-7630687214da",
+            "name": "Classes Recap",
+            "guide": "c01.md",
+            "py": "c01.cs"
+        },
+        {
+            "id": "64e37595-ef16-41f9-8110-d88ab62bc33d",
+            "name": "Toaster Part 1",
+            "guide": "c02.md",
+            "py": "c02.cs"
+        },
+        {
+            "id": "a548c8a8-94b1-429c-b4c2-9bb7062ecbda",
+            "name": "Toaster Part 2",
+            "guide": "c03.md",
+            "py": "c03.cs"
+        },
+        {
+            "id": "08bd069d-1359-4026-9b66-94a6e6d7c607",
+            "name": "Creating Wordle Part 1",
+            "guide": "c04.md",
+            "py": "c04.cs"
+        },
+        {
+            "id": "e696b054-3feb-4f4a-9463-300538f39b30",
+            "name": "Wordle Part 2",
+            "guide": "c05.md",
+            "py": "c05.cs"
+        },
+        {
+            "id": "85e91c5f-edcc-414b-a37e-8d0d0ea6aa0e",
+            "name": "Wordle Part 3",
+            "guide": "c06.md",
+            "py": "c06.cs"
+        },
+        {
+            "id": "d599b9c2-6814-48d6-82ce-203797c95ccd",
+            "name": "Extension: Computer",
+            "guide": "c07.md",
+            "py": "c07.cs"
+        }
+    ]
+}
