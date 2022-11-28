@@ -75,7 +75,7 @@ public class Word
 
   }
 
-  public string endGame() 
+  public string EndGame() 
   {
     string a = answer;
     answer = new string("");
@@ -136,7 +136,7 @@ public class Wordle
     }
     Console.WriteLine("Game over");
     if (won) {Console.WriteLine("Congratulations! You Guessed the word!");}
-    else {Console.WriteLine($"You ran out of moves. The word was {game.endGame()}");}
+    else {Console.WriteLine($"You ran out of moves. The word was {game.EndGame()}");}
   }
 
 }

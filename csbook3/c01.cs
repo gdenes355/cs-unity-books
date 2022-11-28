@@ -13,7 +13,7 @@ public class User
     Console.WriteLine($"Created User called {name}");
   }
 
-  public int GetAgeOfStudent()
+  public int GetAge()
   {
    return age;
   }
@@ -32,7 +32,7 @@ public class School
     User allan = new User("Allan", 15);
     User steve = new User("Steve", 16);
     Console.WriteLine($"{allan.name} is 15 years old");
-    Console.WriteLine($"Steve is {steve.GetAgeOfStudent()} years old");
+    Console.WriteLine($"Steve is {steve.GetAge()} years old");
     allan.SetAge(40); // causes error CS0122
   }
 }
