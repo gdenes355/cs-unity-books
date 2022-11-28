@@ -3,7 +3,7 @@ using System;
 public class Toaster
 {
   public string brand;
-  private int power_rating;
+  private int powerRating;
   private string colour;
   private string[] slots = {"empty", "empty", "empty", "empty"};
 
@@ -11,27 +11,27 @@ public class Toaster
   public Toaster(string br, int pr, string col)
   {
     brand = br;
-    power_rating = pr;
+    powerRating = pr;
     colour = col;
     PrintModel();
   }
 
   public void AddBread()
   {
-    bool empty_space = false;
+    bool emptySpace = false;
     int iter = 0;
     foreach (string bread in slots)
     {
 
       if (bread == "empty") {
-        empty_space = true;
+        emptySpace = true;
         slots[iter] = "bread";
         break;
       }
       iter ++;
     }
 
-    if (!empty_space) {
+    if (!emptySpace) {
       Console.WriteLine("The toaster was full");
     } else {
       Console.WriteLine($"A slice of bread was added to the toaster.");
@@ -76,7 +76,7 @@ public class Toaster
       if (bread != "empty") {
         currstate = Array.IndexOf(states, bread);
 
-        currstate += power_rating;
+        currstate += powerRating;
         if (currstate > (states.Length - 1)) currstate = states.Length - 1;
 
         slots[iter] = states[currstate];
