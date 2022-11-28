@@ -31,6 +31,25 @@
             "name": "Building",
             "guide": "c05.md",
             "py": "c05.cs"
+        },
+        {
+            "id": "a81a64b8-30b1-48e8-b789-7b6c0817d6d0",
+            "name": "Toaster 1",
+            "guide": "c06.md",
+            "py": "c06.cs"
+        },
+        {
+            "id": "65e3a86f-1cdc-4356-91d9-23f72246cda7",
+            "name": "Toaster 2",
+            "guide": "c07.md",
+            "py": "c07.cs"
+        },
+        {
+            "id": "ccb0e84f-d8f3-4a5e-adc8-8543ec129b6d",
+            "name": "Final challenge",
+            "guide": "c08.md",
+            "py": "c08.cs"
         }
+
     ]
 }
