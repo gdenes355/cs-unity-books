@@ -22,27 +22,21 @@
         },
         {
             "id": "6075ce08-dce9-45f5-87e3-efff64bd865e",
-            "name": "Creating Wordle Part 1",
+            "name": "Creating Wordle (Part 1)",
             "guide": "c04.md",
             "py": "c04.cs"
         },
         {
             "id": "c360f66f-8541-42ee-860c-706011631da4",
-            "name": "Wordle Part 2",
+            "name": "Finishing Wordle (Part 2)",
             "guide": "c05.md",
             "py": "c05.cs"
         },
         {
             "id": "62a45757-1230-40d4-944c-4376974f225c",
-            "name": "Wordle Part 3",
+            "name": "Extension: Computer Object",
             "guide": "c06.md",
             "py": "c06.cs"
-        },
-        {
-            "id": "13e73199-b243-40b4-9772-f4da2200da0f",
-            "name": "Extension: Computer",
-            "guide": "c07.md",
-            "py": "c07.cs"
         }
     ]
 }
