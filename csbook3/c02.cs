@@ -19,16 +19,13 @@ public class Toaster
   public void AddBread()
   {
     bool emptySpace = false;
-    int iter = 0;
-    foreach (string bread in slots)
-    {
-
-      if (bread == "empty") {
+    for (int i = 0; i < slots.Length; i++)
+    {    
+      if (slots[___] == "empty") {
         emptySpace = true;
         ___[i] = "bread"; // change the value in the slots array to now contain bread
         break;
       }
-      iter ++;
     }
 
     if (!emptySpace) {

@@ -19,16 +19,13 @@ public class Toaster
   public void AddBread()
   {
     bool emptySpace = false;
-    int iter = 0;
-    foreach (string bread in slots)
-    {
-
-      if (bread == "empty") {
+    for (int i = 0; i < slots.Length; i++)
+    {    
+      if (slots[i] == "empty") {
         emptySpace = true;
-        slots[iter] = "bread";
+        slots[i] = "bread"; // change the value in the slots array to now contain bread
         break;
       }
-      iter ++;
     }
 
     if (!emptySpace) {
@@ -42,17 +39,14 @@ public class Toaster
   {
     bool hasBread = false;
     ___ b = "";
-    int iter = 0;
-    ___ (string bread in slots) // iterating through the array like in the AddBread function.
+    ___ (int i = 0; i < slots.Length; i++)  // iterating through the array like in the AddBread function.
     {
-     
-      if (bread != "empty") {
+      if (slots[i] != "empty") {
         hasBread = true;
-        b = slots[iter];
-        slots[iter] = "empty";
+        b = slots[i];
+        slots[i] = "empty";
         break;
       }
-      iter ++;
     }
 
     if (!hasBread) {
@@ -69,19 +63,16 @@ public class Toaster
     ___[] states = {"bread", "warm", "crispy", "brown", "burnt", "black"}; // making a string array
 
     int currstate;
-    int iter = 0;
-
-    foreach (string bread in slots)
+    for (int i = 0; i < slots.Length; i++)
     {
-      if (bread != "empty") {
-        currstate = Array.IndexOf(states, bread);
+      if (_______ != "empty") {
+        currstate = Array.IndexOf(states, slots[i]);
 
         currstate += powerRating;
         if (currstate > (states.Length - 1)) currstate = states.Length - 1;
 
         slots[iter] = states[currstate];
       }
-      iter___;
     }
   }
 
@@ -90,18 +81,14 @@ public class Toaster
     Console.WriteLine($"{colour} Toaster of brand {brand} has been created!");
   }
 
-  public void ShowBreadSlots() {
-    
-    int iter = 1;
-    foreach (string bread in slots)
+  public void ShowBreadSlots() 
+  {
+    for (int i = 0; i < slots.Length; i++)
     {
-      if (___ == "empty") Console.WriteLine($"Slot {iter} is currently empty");
-      else if (___ == "bread") Console.WriteLine($"Slot {iter} currently has un-toasted bread");
-      else Console.WriteLine($"Slot {iter} has some {bread} toast");
-
-      ___++;
+      if (___ == "empty") Console.WriteLine($"Slot {i} is currently empty");
+      else if (___ == "bread") Console.WriteLine($"Slot {i} currently has un-toasted bread");
+      else Console.WriteLine($"Slot {i} has some {_______} toast");
     }
-
   }
 
 }
@@ -131,7 +118,6 @@ public class Kitchen
     MyToaster.Toast();
 
     MyToaster.ShowBreadSlots();
-
   }
 
 
