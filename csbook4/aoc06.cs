@@ -30,7 +30,7 @@ public class AoC6
   public static void Main(string[] args)
   {
     packet_marker ___; // used later
-    ___[] current = new ___[4]; // what type of array is it?
+    ___[] current = new ___[packet_marker.packet_marker_part_one]; // what type of array is it?
     int iter = 0;
     bool found = false;
 
